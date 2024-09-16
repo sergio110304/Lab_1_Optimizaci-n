@@ -80,7 +80,7 @@ def graficar_region_factible(constraints, func, x_val, y_val):
     # Marcar el punto dado por el usuario
     plt.scatter(x_val, y_val, color='blue', label=f'Punto ({x_val}, {y_val})')
 
-    plt.xlim(0, 300)
+    plt.xlim(0, 50)
     plt.ylim(0, 300)
 
     plt.xlabel('x')
